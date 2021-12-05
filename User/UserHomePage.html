@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>School Management : User</title>
+        <meta content="text/html; charset=utf-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel = "icon" href = "../Website/WebIcon.png" type = "image/x-icon">    
+        <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../Website/WebsiteAttributesStylesheet.css">
+        <link rel="stylesheet" href="../jquery-ui-1.13.0/jquery-ui.min.css">
+        <style>
+            .btn-square-md {
+                width: 150px !important;
+                max-width: 100% !important;
+                max-height: 100% !important;
+                height: 100px !important;
+                text-align: left;
+                padding: 2% !important;
+                font-size:15px;
+            }
+        </style>
+
+        <script src="../bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../jquery-ui-1.13.0/external/jquery/jquery.js"></script>
+        <script src="../jquery-ui-1.13.0/jquery-ui.min.js"></script>
+        <script src="UserPageScript.js"></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="../Website/WebIcon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page">Home</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="navbar-nav mr-auto">
+                    <a class="nav-link" href="../Login/log_out.php"><u>Log Out</u></a>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container rounded">
+            <p class="fw-bold fs-3" id="ID"></p>
+            <p class="fw-light fst-italic fs-5" id ="Name"></p>
+            <hr>
+            <!--The buttons that link to other pages-->
+            <div id="buttons">
+            </div>
+        </div>
+    </body>
+</html>
